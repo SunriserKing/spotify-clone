@@ -1,0 +1,401 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+}
+.logo{
+    height: 100px;
+    width: auto;
+    position: absolute;
+    top: -4vh;
+    left: -1vw;
+    cursor: pointer;
+
+
+}
+
+.main {
+    /* background-color: red; */
+    position: absolute;
+    bottom: 80vh;
+    top: 12vh;
+    left: 23vw;
+    height: 87vh;
+    width: 76vw;
+    border-radius: 5px;
+    background-color: rgb(17, 17, 17);
+
+}
+
+nav {
+    background-color: rgb(17, 17, 17);
+    position: relative;
+    width: 22vw;
+    margin: 5px;
+    border-radius: 5px;
+    height: 25vh;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 50;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px;
+}
+
+.imgp{
+    height: 30px;
+    position: relative;
+    left: -9.7vw;
+    bottom: 10px;
+    filter: invert();
+    z-index: 1;
+}
+.librar{
+    position: relative;
+    top: 16vh;
+    right: 15vw;
+    height: 40px;
+    filter: invert(1);
+    z-index: 1;
+
+}
+.srch{
+    height: 30px;
+    position: relative;
+    right: 12vw;
+    top: 50px;
+    filter: invert();
+}
+.ins {
+    
+    padding: 4px;
+    margin: 2px;
+    position: relative;
+}
+.home{
+    position: absolute;
+    bottom: 10.5vh;
+    left: 4.5vw;
+}
+.Search{
+    position: absolute;
+    bottom: 18px;
+    left: 4vw;
+}
+.libb{
+    position: relative;
+    left: 50px;
+    top: 1vh;
+    /* overflow-y: auto; */
+}
+
+.lib {
+    background-color: rgb(17, 17, 17);
+    margin: 5px;
+    position: relative;
+    right: -3px;
+    width: 22vw;
+    border-radius: 5px;
+    height: 80vh;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: 0;
+}
+
+.top {
+    background-color: rgb(30, 30, 30);
+    position: sticky;
+    /* margin: 2px; */
+    bottom: 89vh;
+    left: 25vw;
+    height: 10vh;
+    border-radius: 5px;
+    width: 76vw;
+    z-index: 2;
+
+}
+
+.so {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    padding: 2px;
+    /* margin: 10px; */
+    margin-right: 30px;
+}
+
+.log {
+    border-radius: 30px;
+    background-color: whitesmoke;
+    color: rgb(20, 20, 20);
+    padding: 7px;
+    font-family: sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+    top: 2.5vh;
+    font-display: block;
+    cursor: pointer;
+    font-weight: 50%;
+}
+
+.sign {
+    color: rgb(160, 160, 160);
+    position: absolute;
+    top: 3.6vh;
+    right: 8.5vw;
+    font-family: sans-serif;
+    font-weight: 20%;
+    cursor: pointer;
+
+
+}
+
+.container {
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: scroll;
+    height: 80vh;
+    scroll-behavior: smooth;
+    max-height: 80vh;
+    z-index: 0;
+
+}
+
+.card {
+    top: 28vh;
+    left: 2vw;
+    background-color: rgb(30, 30, 30);
+    height: 35vh;
+    width: 12vw;
+    border-radius: 5px;
+    margin: 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    transition: left smooth ;
+
+}
+.card:hover{
+    scale: 1.1;
+}
+
+.main-text {
+    position: absolute;
+    top: 0px;
+    width: 70vw;
+    padding: 25px;
+    font-size: 30px;
+    background-color: rgb(17,17,17);
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+
+}
+
+.title {
+    position: absolute;
+    bottom: 50px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8px;
+    font-weight: 20%;
+
+}
+
+.desc {
+    position: absolute;
+    bottom: 25px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8px;
+    font-weight: 20%;
+}
+
+.card-img {
+    height: 23vh;
+    width: 23vh;
+    position: absolute;
+    top: 10px;
+    /* margin-top: 0px; */
+    margin-left: 8px;
+    margin-right: 5px;
+
+
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #222;
+}
+.player{
+    position: sticky;
+    background-color: rgb(0, 0, 0);
+    /* position: relative; */
+    width: 99vw;
+    height: 12vh;
+    border-radius: 10px;
+    bottom: 0vh;
+    
+}
+.pre{
+    position: absolute;
+    height: 30px;
+    left: 45%;
+    top: 25%;
+    cursor: pointer;
+}
+.pre:hover{
+    scale: 1.2;
+}
+.pla{
+    position: absolute;
+    height: 30px;
+    left: 50%;
+    top: 25%;
+
+}
+#playbtn{
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    top: 1%;
+    cursor: pointer;
+    
+}
+#playbtn:hover{
+    scale: 1.2;
+    
+}
+.nex{
+    position: absolute;
+    height: 30px;
+    left: 55%;
+    top: 25%;
+    filter: invert();
+    fill: bisque;
+    cursor: pointer;
+}
+.nex:hover{
+    scale: 1.2;
+}
+.slide{
+    position: absolute;
+    width: 50vw;
+    height: 5px;
+    left: 25%;
+
+    top: 70%;
+    background-color: grey;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.gola{
+    position: absolute;
+    border-radius: 100%;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    top: -5px;
+    left: 0px;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    /* height: 100px; */
+    color: white;
+    font-size: 0px;
+    transition: left 0.5s;
+    
+}
+.st{
+    position: absolute;
+    left: -5%;
+    top: -10px;
+
+}
+.et{
+    position: absolute;
+       right: -5%;
+    top: -11px;
+
+}
+.songlist ol li{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 10px;
+    justify-content: center;
+    /* align-content: center; */
+}
+.son{
+border: 3px solid rgb(126, 126, 126);
+    position: relative;
+    border-radius: 7px;
+    top: 2vh;
+    left: -2vw;
+    width: 19vw;
+    height: 8vh;
+    background-color: #222;
+    /* padding: 10px; */
+    margin: 5px;
+    cursor: pointer;
+    list-style-position: inside;
+}
+.playnow{
+    position: absolute;
+    top: 5%;
+    height: 30px;
+    width: 30px;
+    align-self: flex-end;
+    padding: 10px;
+    cursor: pointer;
+}
+.son:hover{
+    scale: 1.03;
+    border:3px solid whitesmoke ;
+    font-size:23px;
+    color: azure;
+}
+.son:active{
+    background-color:rgba(0, 0, 0, 0.682);
+}
+.song-find{
+    position: absolute;
+    top: 0%;
+    border: 3px solid rgb(165, 165, 165);
+    border-radius: 7px;
+    margin: 10px;
+    height: 9vh;
+    width: 20vw;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-items: center;
+    /* justify-items: center; */
+    /* justify-self: center; */
+    /* padding: 5px; */
+    align-content: center;
+    color: blanchedalmond;
+}
